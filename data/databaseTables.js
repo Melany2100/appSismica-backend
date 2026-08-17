@@ -14,6 +14,8 @@ const comentariosInspeccion = `${schema}.comentarios_inspeccion`;
 const matrizPuntuacion = `${schema}.matriz_puntuacion`;
 const resultadosInspeccion = `${schema}.resultados_inspeccion`;
 const historialAuditoria = `${schema}.historial_auditoria`;
+const asignacionesAyudante = `${schema}.asignaciones_ayudante`;
+const notificaciones = `${schema}.notificaciones`;
 
 const DatabaseTable = {
   usuarios,
@@ -27,6 +29,8 @@ const DatabaseTable = {
   matrizPuntuacion,
   resultadosInspeccion,
   historialAuditoria,
+  asignacionesAyudante,
+  notificaciones,
 };
 
 export default DatabaseTable;
