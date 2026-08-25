@@ -83,10 +83,10 @@ Crea un archivo `.env` en la raíz del proyecto y completa con tus credenciales:
 DB_HOST=aws-1-us-east-2.pooler.supabase.com
 DB_USER=postgres.gsjbejxrqumqpqfpvpmp
 DB_PASSWORD=Vinculaci@n12345.
-DB_PORT=6543
+DB_PORT=5432
 DB_NAME=postgres
 DB_TEST_SCHEMA=public
-DATABASE_URL=postgresql://postgres.gsjbejxrqumqpqfpvpmp:Vinculaci%40n12345.@aws-1-us-east-2.pooler.supabase.com:6543/postgres
+DATABASE_URL=postgresql://postgres.gsjbejxrqumqpqfpvpmp:Vinculaci%40n12345.@aws-1-us-east-2.pooler.supabase.com:5432/postgres
 
 # === CONFIGURACIÓN DE CORREO (SMTP) ===
 EMAIL_USER=vinculacionsismica@gmail.com

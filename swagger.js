@@ -25,6 +25,14 @@ const swaggerDefinition = {
       },
     },
   },
+  tags: [
+    { name: "Autenticación" },
+    { name: "Asignaciones" },
+    { name: "Usuarios" },
+    { name: "Edificios" },
+    { name: "Inspecciones" },
+    { name: "Catálogos" },
+  ],
   security: [
     {
       bearerAuth: [],
